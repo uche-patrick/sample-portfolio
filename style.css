@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+header{
+    background-color: rgb(34, 24, 56);
+   /* height: 200px; */
+}
+.link-div{
+    display: flex;
+    justify-content: space-around;
+}
+.link{
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+}
+.link:hover{
+    color: white;
+}
+h1{
+    color: white;
+    text-align: center;
+     margin: 30px;
+     font-family: 'Courier New', Courier, monospace;
+}
+.img-div{
+    display: flex;
+    justify-content: center;
+}
+#img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 100px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+h2{
+    text-align: center;
+}
+h3{
+    margin: 0px;
+}
+#pictures{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.pics-div{
+    display: flex;
+    justify-content: center;
+}
+.pics{
+    width: 200px;
+    border: 4px solid gray;
+    border-radius: 10px;
+}
+a> span{
+    position: relative;
+    bottom: 15px;
+    color: black
+}
+#my-contact >a{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+#my-contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (max-width:450px){
+    #my-contact{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.contact-p{
+    font-weight: bold;
+}
